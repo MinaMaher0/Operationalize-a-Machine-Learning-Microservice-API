@@ -28,11 +28,18 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
 
-### Running `app.py`
+## Running `app.py`
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+### Standalone:  
+  `python app.py`
+### Run in Docker:
+  `./run_docker.sh`
+### Run in Kubernetes:  
+  `./run_kubernetes.sh`
+### Verify that application is running: 
+  `./make_prediction.sh`
+### Upload to ECR 
+  `./upload_docker.sh`
 
 ### Kubernetes Steps
 
